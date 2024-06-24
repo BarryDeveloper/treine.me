@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+}
+
+.cabecalho-logo{
+    margin-left: -200px; 
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #89C5CC;
+    
+}
+
+.cabecalho-menu-item{
+    color: #1F1534;
+    font-family: "Mulish", sans-serif;
+}
+
+.cabecalho-menu {
+    margin-left: 10 auto;
+    display: flex;
+    gap: 32px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.texto-tema{
+    font-weight: 400;
+    font-family: "Mulish", sans-serif;
+    font-size: 49px;;
+    line-height: 56px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.exclusivo{
+    font-weight: 700;
+    color: #89C5CC;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    background-color: #57b892;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
